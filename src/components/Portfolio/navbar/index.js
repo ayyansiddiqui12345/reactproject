@@ -23,7 +23,7 @@ export const NavbarComponent = () =>{
         <Navbar.Brand href="#avatar">Navbar</Navbar.Brand>
         <Nav className="me-auto">
           <Nav.Link href="#portfolio">Portfolio</Nav.Link>
-          <Nav.Link href="#features">ABOUT</Nav.Link>
+          <Nav.Link href="#about">ABOUT</Nav.Link>
           <Nav.Link href="#pricing">CONTACT</Nav.Link>
         </Nav>
       </Container>

@@ -1,28 +1,6 @@
-body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    margin: 0;
-  }
-  
-  .about {
-    text-align: center;
-  }
-  
-  #text {
-    margin-bottom: 10px;
-  }
-  
-  hr {
-    margin: 20px auto;
-  }
-  
-  #free {
-    max-width: 600px;
-    margin: 0 auto;
-  }
-  
-  button {
-    margin-top: 20px;
-  }
+.about{
+   background-color:  #1abc9c;
+   text-align: center;
+
+
+}

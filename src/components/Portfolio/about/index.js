@@ -1,13 +1,15 @@
 import React from 'react'
 import styles from "../about/about.module.css";
 
+
 export const AboutComponent = () => {
   return (
-    <div className="about">
+    <div className={styles.about} id='about'>
     <br />
-    <h1 id="text">ABOUT</h1>
-    <hr style={{ width: '500px', height: '2px', backgroundColor: 'black', border: 'none', marginBottom: '70px' }} />
-    <div>
+    <h1 style={{
+      color: 'whitesmoke',}}>ABOUT</h1>
+    <hr style={{ width: '500px', height: '2px', backgroundColor: 'black', border: 'none', marginBottom: '80px', marginLeft: '440px'  }} />
+    <div style={{ marginRight: '500px', color: 'whitesmoke' }}>
       <p id="free">
         Freelancer is a free bootstrap theme
         <br />
@@ -23,7 +25,7 @@ export const AboutComponent = () => {
       </p>
     </div>
 
-    <div style={{ marginLeft: '750px', marginTop: '-125px' }}>
+    <div style={{ marginLeft: '200px', marginTop: '-125px',color: 'whitesmoke' }}>
       <p>
         You can create your own custom avatar
         <br />
@@ -36,10 +38,11 @@ export const AboutComponent = () => {
         functional!
       </p>
     </div>
-
-    <button id="button">
-      <a href="https://startbootstrap.com/theme/freelancer">Free Download</a>
-    </button>
+    
+    <a href="https://startbootstrap.com/theme/freelancer"> 
+    <button id="button" className='btn btn-secondary'  style={{color: 'whitesmoke'}}>
+     Free Download
+    </button></a>
   </div>
   )
 }
