@@ -25,7 +25,7 @@ export const ContactComponent = () => {
 
   return (
     <div>
-         <div id="contact">
+         <div id="contact" className={styles.contact}>
         
       <br /><br />
       <h2 className="page-section-heading text-center text-uppercase text-secondary mb-0">
