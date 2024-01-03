@@ -24,7 +24,7 @@ export const NavbarComponent = () =>{
         <Nav className="me-auto">
           <Nav.Link href="#portfolio">Portfolio</Nav.Link>
           <Nav.Link href="#about">ABOUT</Nav.Link>
-          <Nav.Link href="#pricing">CONTACT</Nav.Link>
+          <Nav.Link href="#contact">CONTACT</Nav.Link>
         </Nav>
       </Container>
     </Navbar>
