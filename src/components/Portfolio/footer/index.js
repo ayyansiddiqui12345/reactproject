@@ -18,6 +18,16 @@ export const FooterComponent = () => {
 
       <div className={styles.footerSection}>
         <h3>AROUND THE WEB</h3>
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
         <a href="https://github.com/ayyansiddiqui12345" target="_blank">
           <img
             src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
@@ -26,29 +36,7 @@ export const FooterComponent = () => {
             className={styles.githubIcon} // Add your custom class for sizing
           />
         </a>
-      &nbsp;
-        <a href="https://facebook.com" target="_blank">
-          <img
-            src="https://cdn-icons-png.flaticon.com/128/5968/5968764.png"
-            id="profile-link"
-            alt="github"
-            className={styles.githubIcon} // Add your custom class for sizing
-          />
-        </a>
      
-        &nbsp;
-        
-        <a href="https://www.linkedin.com/in/ayyan-siddiqui-956847231/" target="_blank">
-          <img
-            src="https://cdn-icons-png.flaticon.com/128/145/145807.png"
-            id="profile-link"
-            alt="github"
-            className={styles.githubIcon} // Add your custom class for sizing
-          />
-        </a>
-        <br />
-        <br />
-        <br />
       </div>
 
       <div className={styles.footerSection}>
