@@ -3,6 +3,8 @@ import {NavbarComponent } from "@/components/Portfolio/navbar";
 import {ContainerComponent } from "@/components/Portfolio/container/index";
 import {AboutComponent } from "@/components/Portfolio/about";
 import {ContactComponent } from "@/components/Portfolio/contact";
+import {FooterComponent } from "@/components/Portfolio/footer";
+
 
 
 
@@ -16,6 +18,7 @@ export default function Home() {
       <ContainerComponent/>
       <AboutComponent/>
       <ContactComponent/>
+      <FooterComponent/>
       
     </div>
   );
